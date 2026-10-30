@@ -1,0 +1,2 @@
+# Sentiment-Analysis
+A PyTorch-based transformer project for binary sentiment classification of IMDB movie reviews. SentimentScope explores text preprocessing, BERT-based tokenization using `bert-base-uncased`, custom dataset and DataLoader implementation, transformer model architecture, and model training with validation. The project evaluates performance on unseen test data using accuracy and other relevant metrics, with the goal of achieving over 75% test accuracy. It also covers model checkpointing and inference for classifying movie reviews as positive or negative.
