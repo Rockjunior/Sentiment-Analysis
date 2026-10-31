@@ -50,6 +50,11 @@ Windows PowerShell:
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
+If activation is blocked, run PowerShell once as your normal user:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
 
 macOS/Linux:
 
